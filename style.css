@@ -1,0 +1,80 @@
+* {
+  font-family: "Source sans 3", sans-serif;
+}
+.hero {
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* LOGO overlay */
+.college-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+}
+
+/* Text over image */
+.overlay-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(153, 27, 27, 0.85);
+  padding: 10px 25px;
+  border-radius: 6px;
+  z-index: 2;
+}
+.label {
+  background-color: #c41e3a;
+  color: white;
+  padding: 15px 30px;
+  font-size: 36px;
+  font-weight: bold;
+  border-radius: 0;
+  display: inline-block;
+}
+.about {
+  max-width: 2000px;
+  margin-left: 160px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+.text {
+  font-size: 25px;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: justify;
+  align-items: center;
+}
+.highlight-text {
+  color: #c41e3a;
+  font-weight: bold;
+}
+.list {
+  margin-top: 30px;
+  font-size: 25px;
+  line-height: 1.8;
+  text-align: justify;
+}
+.tech {
+  max-width: 2000px;
+  margin-left: 160px;
+  margin-top: 30px;
+  font-size: 25px;
+  line-height: 1.8;
+  text-align: justify;
+}
