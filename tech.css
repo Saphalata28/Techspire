@@ -1,5 +1,4 @@
 * {
-<<<<<<< HEAD
   font-family: "Source sans 3", sans-serif;
 }
 .hero {
@@ -55,29 +54,12 @@
 }
 .text {
   font-size: 25px;
-=======
-  font-family: "Source sans 3", sans-serif;}
-.thrive {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  max-width: 2000px;
-  margin-left: 150px;
-}
-
-.thrive-highlight {
-  color: #c41e3a;
-}
-.mission-item p {
-  font-size: 22px;
->>>>>>> c0217ddd851aad92e3e977a5ec5047195deb0f12
   line-height: 1.8;
   color: #666;
   margin-bottom: 20px;
   text-align: justify;
   align-items: center;
 }
-<<<<<<< HEAD
 .highlight-text {
   color: #c41e3a;
   font-weight: bold;
@@ -96,34 +78,3 @@
   line-height: 1.8;
   text-align: justify;
 }
-=======
-.vision-item p {
-  font-size: 22px;
-  line-height: 1.8;
-  color: #666;
-  margin-bottom: 20px;
-  text-align: justify;
-  align-items: center;
-}
-.highlight-card {
-  background-color: #c41e3a;
-  color: white;
-  width: 400px;
-  height: 600px;
-  padding: 10px;
-  border-radius: 10px;
-  text-align: left;
-  font-weight: lighter;
-  font-size: 22px;
-}
-.card {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
-}
-.highlights {
-  max-width: 2000px;
-  margin-left: 200px;
-}
-
->>>>>>> c0217ddd851aad92e3e977a5ec5047195deb0f12
